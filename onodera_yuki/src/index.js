@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route} from 'react-router-dom';
+import About from './component/About';
+import Work from './component/Work';
+import Contact from './component/Contact';
+import Home from './component/Home';
+import './index.css';
+import ToDo from './Todo';
+import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(
     <BrowserRouter>
